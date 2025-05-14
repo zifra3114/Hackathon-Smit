@@ -15,34 +15,20 @@ body{
 .navbar ul{
     gap: 0px 40px;
 }
-.header{
-    margin-top: 100px;
-    margin-left: 100px;
+.hero{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #333;
 }
-.header h5{
-    color: orangered;
-    font-weight: bold;
-    margin-top: 20px;
-}
-.header h1{
-  font-size: 70px;
-   font-weight: bold;
-    margin-top: 20px;
+
+.hero h1{
+    color: #181e4b;
     font-family: serif;
+    line-height: 1;
 }
-.header button{
-    background-color: #F1A501;
-    border:  2px solid #F1A501;
-    color: white;
-    border-radius: 10px;
-    padding: 10px;
-     font-weight: bold;
-    margin-top: 10px;
-}
-.header p{
- margin-top: 20px;
-}
+
 
 .button{
     display: flex;
@@ -256,5 +242,8 @@ body{
   }
   .subscription{
     margin-top: 100px;
+  }
+.heading{
+    font-size: 10px;
   }
 }
